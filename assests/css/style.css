@@ -217,7 +217,7 @@ img {
         box-sizing: border-box;
         border: 7.5px solid transparent;
         background-clip:padding-box;
-        padding: 30px;
+        padding: 30px 30px 30px 30px !important;
         /* max-width: 292px; */
     }
 
@@ -225,7 +225,6 @@ img {
         line-height: 29px;
         color: var(--white);
         font-size: var(--font-m);
-        padding-left: 15px;
         margin-bottom: 10px;
     }
 
@@ -470,6 +469,11 @@ img {
         padding-right: 180px;
     }
 
+    
+    .company-logo img {
+        height: 100px;
+    }
+
 }
 
 @media only screen and (max-width: 1080px) {
@@ -650,28 +654,26 @@ img {
     }
 
     .price-field {
+        padding: 15px 15px 15px 15px;
         font-style: normal;
         font-weight: bold;
         background: var(--back);
         box-sizing: border-box;
         border: 7.5px solid transparent;
         background-clip:padding-box;
-        padding: 15px;
     }
 
     .price-item-title {
         line-height: 25px;
         color: var(--white);
         font-size: var(--font-s);
-        padding-left: 15px;
         margin-bottom: 10px;
     }
 
     .price-item-value {
-        font-size: var(--font-ml);
-        line-height: 30px;
+        font-size: var(--font-m);
+        line-height: 25px;
         color: var(--green);
-        padding-left: 15px;
     }
 
     .business-part {
@@ -819,11 +821,9 @@ img {
         margin-bottom: 70px;
     }
 
-
-
     .meet-jacob {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
         text-align: left;
         margin-bottom: 70px;
     }
@@ -912,10 +912,10 @@ img {
     .client-list img {
         height: 50px;
     }
-}
 
-.price-field {
-    border-radius: 25px;
+    .company-logo img {
+        height: 50px;
+    }
 }
 
 .schedule-link {
