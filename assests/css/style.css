@@ -1,7 +1,6 @@
 @import url("https:fonts.googleapis.com/css?family=Work+Sans:400,700");
 
 :root {
-    --black: rgba(0,0, 0, 1);
     --green: rgba(4, 191, 173, 1);
     --cinder: rgba(19, 19, 19, 1);
     --white: rgba(255, 255, 255, 1);
@@ -34,7 +33,7 @@ img {
         line-height: 60px;
         text-align: center;
         display: inline-block;
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
     }
 
     
@@ -93,7 +92,7 @@ img {
         background: var(--back);
         z-index: 200;
         position: inherit;
-        height: 65px;
+        height: 40px;
         width: 70%;
         left: 15%;
         margin-top: 5px;
@@ -114,13 +113,15 @@ img {
         color: var(--white);
         font-size: var(--font-xl);
         position: relative;
-        /* background: var(--black); */
+        margin-bottom: 0px;
+        /* background: var(--back); */
     }
 
     .main-title {
         z-index: 200;
         position: inherit;
         background: var(--back);
+        line-height: 60px;
     }
 
 
@@ -138,12 +139,19 @@ img {
         font-size: var(--font-m);
         font-weight: 400;
         font-style: normal;
+        position: relative;
+        background: var(--back);
+        z-index: 200;
+        border: 40px solid var(--back);
+        box-sizing: content-box;
+        border-bottom: 0px;
     }
 
     .arrow-home {
         margin-top: 40px;   
-        margin-bottom: 360px;
+        margin-bottom: 426px;
         position: relative;
+        padding-right: 37px;
     }
 
     .arrow-svg {
@@ -179,12 +187,15 @@ img {
         margin-bottom: 10px;
     }
 
+    .price-list {
+        margin-left: 0px !important;
+    }
     .price-description {
         font-weight: bold;
         font-size: 19px;
         line-height: 29px;
         text-align: center;
-        color: var(--black);
+        color: var(--back);
         margin-bottom: 30px;
 
     }
@@ -194,8 +205,8 @@ img {
         padding-bottom: 173px;
     }
     .price-block {
-        padding-left: 140px;
-        padding-right: 40px;
+        padding-left: 80px;
+        /* padding-right: 40px; */
         float: right;
     }
 
@@ -207,6 +218,7 @@ img {
         border: 7.5px solid transparent;
         background-clip:padding-box;
         padding: 30px;
+        /* max-width: 292px; */
     }
 
     .price-item-title {
@@ -225,14 +237,14 @@ img {
     }
 
     .business-part {
-        padding-left: 20%;
+        padding-left: 10%;
     }
     .business-outcome-title-1 {
         font-style: normal;
         font-weight: 700;
         font-size: var(--font-l);
         line-height: 40px;
-        color: var(--black);
+        color: var(--back);
         margin-bottom: 10px;
     }
 
@@ -241,7 +253,7 @@ img {
         font-weight: bold;
         font-size: var(--font-l);
         line-height: 40px;
-        color: var(--black);
+        color: var(--back);
         margin-bottom: 20px;
     }
 
@@ -249,7 +261,7 @@ img {
         font-style: normal;
         font-size: var(--font-m);
         line-height: 29px;
-        color: var(--black);
+        color: var(--back);
         max-width: 465px;
         margin-bottom: 30px;
     }
@@ -257,15 +269,15 @@ img {
     .schedule-call {
         box-sizing: border-box;
         border: 4px solid #0E0F13;
-        max-width: 390px;
+        max-width: 378px;
         padding: 22px;
-        color: var(--black);
+        color: var(--back);
         transition: background-color 100ms ease-out 100ms
 
     }
 
     .schedule-call:hover {
-        max-width: 390px;
+        max-width: 378px;
         padding: 22px;
         background: var(--green);
         color: var(--white);
@@ -274,10 +286,9 @@ img {
 
     .schedule-title {
         font-weight: bold;
-        font-size: var(--font-xs);
+        font-size: var(--font-s);
         line-height: 20px;
         text-align: center;
-        letter-spacing: 0.01em;
         text-transform: uppercase;
         letter-spacing: 0.01em;
         margin-bottom: 5px;
@@ -285,7 +296,7 @@ img {
 
     .schedule-content {
         font-style: normal;
-        font-size: var(--font-xxs);
+        font-size: var(--font-xs);
         line-height: 20px;
         text-align: center;
         letter-spacing: 0.01em;
@@ -302,7 +313,8 @@ img {
         padding-bottom: 230px;
     }
     .matter-section {
-        padding-left: 155px;
+        float: right;
+        /* padding-left: 155px; */
         padding-right: 10%;
     }
     .matter-title {
@@ -350,12 +362,15 @@ img {
         text-align: center;
         margin-top: 140px;
     }
+    .client-image {
+        float: right;
 
+    }
     .client-title {
         font-weight: bold;
         font-size: var(--font-xl);
         line-height: 60px;
-        color: var(--black);
+        color: var(--back);
         max-width: 900px;
         display: inline-block;
         margin-bottom: 88px;
@@ -377,7 +392,7 @@ img {
         font-weight: bold;
         font-size: var(--font-l);
         line-height: 40px;
-        color: var(--black);
+        color: var(--back);
         margin-bottom: 10px;
     }
 
@@ -391,11 +406,12 @@ img {
 
     .meet-part {
         padding-right: 5%;
+        padding-left: 50px;
     }
     .meet-ask {
         font-size: var(--font-m);
         line-height: 29px;
-        color: var(--black);
+        color: var(--back);
         margin-bottom: 20px;
     }
 
@@ -408,7 +424,7 @@ img {
     .meet-content {
         font-size: var(--font-m);
         line-height: 29px;
-        color: var(--black);
+        color: var(--back);
         padding-left: 20px;
         max-width: 446px;
     }
@@ -559,13 +575,18 @@ img {
         font-style: normal;
         padding-left: 20px;
         padding-right: 20px;
+        z-index: 200;
+        background: var(--back);
+        position: relative;
     }
 
     .arrow-home {
         margin-top: 40px;   
         margin-bottom: 260px;
+        margin-right: 11px;
         position: relative;
         text-align: center;
+        
     }
 
     .arrow-svg {
@@ -606,7 +627,7 @@ img {
         font-size: var(--font-s);
         line-height: 20px;
         text-align: center;
-        color: var(--black);
+        color: var(--back);
 
     }
 
@@ -659,7 +680,7 @@ img {
         font-weight: 700;
         font-size: var(--font-ml);
         line-height: 30px;
-        color: var(--black);
+        color: var(--back);
         margin-bottom: 30px;
     }
 
@@ -668,7 +689,7 @@ img {
         font-weight: bold;
         font-size: var(--font-m);
         line-height: 25px;
-        color: var(--black);
+        color: var(--back);
         margin-bottom: 40px;
     }
 
@@ -676,7 +697,7 @@ img {
         font-style: normal;
         font-size: var(--font-s);
         line-height: 29px;
-        color: var(--black);
+        color: var(--back);
         max-width: 465px;
         margin-bottom: 50px;
     }
@@ -686,7 +707,7 @@ img {
         border: 4px solid #0E0F13;
         max-width: 200px;
         padding: 12px;
-        color: var(--black);
+        color: var(--back);
         transition: background-color 100ms ease-out 100ms;
         margin: auto;
     }
@@ -783,7 +804,7 @@ img {
         font-weight: bold;
         font-size: var(--font-ml);
         line-height: 30px;
-        color: var(--black);
+        color: var(--back);
         max-width: 900px;
         display: inline-block;
         margin-bottom: 58px;
@@ -793,9 +814,7 @@ img {
         margin-bottom: 70px;
     }
 
-    .client-image {
-        text-align: center;
-    }
+
 
     .meet-jacob {
         padding-left: 50px;
@@ -809,7 +828,7 @@ img {
         font-weight: bold;
         font-size: var(--font-m);
         line-height: 20px;
-        color: var(--black);
+        color: var(--back);
         margin-bottom: 10px;
     }
 
@@ -828,20 +847,19 @@ img {
     .meet-ask {
         font-size: var(--font-xs);
         line-height: 20px;
-        color: var(--black);
+        color: var(--back);
         margin-bottom: 20px;
     }
 
     .meet-list {
         display: inline-flex;
         margin-bottom: 20px;
-        /* max-width: 446px; */
     }
 
     .meet-content {
         font-size: var(--font-xs);
         line-height: 20px;
-        color: var(--black);
+        color: var(--back);
         padding-left: 10px;
         max-width: 446px;
     }
@@ -882,3 +900,4 @@ img {
         margin-bottom: 160px;
     }
 }
+
