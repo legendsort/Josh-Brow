@@ -20,7 +20,6 @@ body {
     margin: 0px;
 }
 
-
 *{font-family:"Work Sans";}
 
 img {
@@ -188,7 +187,8 @@ img {
     }
 
     .price-list {
-        margin-left: 0px !important;
+        /* margin-left: 0px !important; */
+        max-width: 700px;
     }
     .price-description {
         font-weight: bold;
@@ -363,7 +363,7 @@ img {
         margin-top: 140px;
     }
     .client-image {
-        float: right;
+        float: center;
 
     }
     .client-title {
@@ -465,6 +465,11 @@ img {
     .footer-schedule{
         margin-bottom: 160px;
     }
+    .client-list {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
 }
 
 @media only screen and (max-width: 1080px) {
@@ -899,5 +904,25 @@ img {
     .footer-schedule{
         margin-bottom: 160px;
     }
+
+    .client-list {
+        padding: 20px;
+    }
+    
+    .client-list img {
+        height: 50px;
+    }
 }
 
+.price-field {
+    border-radius: 25px;
+}
+
+.schedule-link {
+    text-decoration: none;
+}
+
+
+.company-logo  {
+    margin-bottom: 20px;
+}
