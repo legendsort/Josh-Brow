@@ -473,6 +473,14 @@ img {
         height: 100px;
     }
 
+    #carousel {
+        display: none;
+    }
+
+    #company-logos {
+        display: flex;
+    }
+
 }
 
 @media only screen and (max-width: 1080px) {
@@ -913,7 +921,34 @@ img {
     }
 
     .company-logo img {
-        height: 50px;
+        height: 100px;
+    }
+
+    #company-logos {
+        display: none;
+    }
+
+    #carousel {
+        display: block;
+    }
+
+    
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%40ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    }
+    
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%40ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
+
+    .carousel-indicators {
+        bottom: -30px !important;
+    }
+    .carousel-indicators .active {
+        background-color: grey !important;
+    }
+    .carousel-indicators [data-bs-target] {
+        background-color: #000000 !important;
     }
 }
 
