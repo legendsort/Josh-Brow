@@ -471,6 +471,7 @@ img {
     
     .company-logo img {
         height: 100px;
+        max-width: 150px;
     }
 
     #carousel {
@@ -922,6 +923,7 @@ img {
 
     .company-logo img {
         height: 100px;
+        max-width: 150px;
     }
 
     #company-logos {
