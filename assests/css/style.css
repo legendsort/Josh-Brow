@@ -470,8 +470,9 @@ img {
 
     
     .company-logo img {
-        height: 100px;
+        max-height: 100px;
         max-width: 150px;
+        height: 100%;
     }
 
     #carousel {
@@ -961,4 +962,20 @@ img {
 
 .company-logo  {
     margin-bottom: 20px;
+    height: 100px;
 }
+
+.santivia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.santivia img {
+    max-width: 150px;
+}
+
+    
