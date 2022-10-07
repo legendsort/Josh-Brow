@@ -27,6 +27,11 @@ img {
 }
 
 @media only screen and (min-width: 1080px) {
+
+    .mark-home svg {
+        width: 80px;
+        height: 80px;
+    }
     .main-home {
         max-width: 948px;
         line-height: 60px;
@@ -519,6 +524,11 @@ img {
 
 
 @media only screen and (max-width: 1080px) {
+
+    .mark-home svg {
+        width: 50px;
+        height: 50px;
+    }
     .main-home {
         width: 370px;
         line-height: 60px;
@@ -541,24 +551,23 @@ img {
     }
 
     @keyframes facebook-animation {
-        0% { top:40px; visibility: visible;}
-        15% { top:40px; visibility: visible;}
+        0% { top:55px; visibility: visible;}
+        15% { top:55px; visibility: visible;}
         30% { top:0px; visibility: hidden;}
         90% { top:0px; visibility: hidden;}
-
-        100% {top:40px; visibility: visible;}
+        100% {top:55px; visibility: visible;}
     }
     #swap-instagram {
         animation-name: instagram-animation;
     }
     @keyframes instagram-animation {
-        0% { top:60px;visibility: hidden;}
-        15% {top:60px;visibility: hidden;}
-        30% {top:40px;visibility: visible;}
-        45% {top:40px;visibility: visible;}
+        0% { top:70px;visibility: hidden;}
+        15% {top:70px;visibility: hidden;}
+        30% {top:55px;visibility: visible;}
+        45% {top:55px;visibility: visible;}
         60% {top:0px;visibility: visible;}
         70% {top:0px;visibility: hidden;}
-        100% {top:60px;visibility: hidden;}   
+        100% {top:70px;visibility: hidden;}   
     }
 
 
@@ -567,14 +576,13 @@ img {
         animation-name: google-animation;
     }
     @keyframes google-animation {
-        0% { top:80px;visibility: hidden;}
-        30% {top:60px;visibility: hidden;}
-        45% {top:60px;visibility: hidden;}
-        60% {top:40px;visibility: visible;}
-        75% {top:40px;visibility: visible;}
-        90% {top:40px;visibility: visible;}
-        
-        100% {top:80px;visibility: hidden;}   
+        0% { top:90px;visibility: hidden;}
+        30% {top:70px;visibility: hidden;}
+        45% {top:70px;visibility: hidden;}
+        60% {top:55px;visibility: visible;}
+        75% {top:55px;visibility: visible;}
+        90% {top:55px;visibility: visible;}
+        100% {top:90px;visibility: hidden;}   
     }
     
     .down-box {
@@ -600,6 +608,7 @@ img {
         font-weight: bold;
         color: var(--white);
         font-size: var(--font-m);
+        line-height: 29px;
         position: relative;
     }
 
@@ -616,7 +625,7 @@ img {
 
 
     .subtitle-home {
-        line-height: 19px;
+        line-height: 20px;
         text-align: center;
         display: inline-block;
         max-width: 362px;
@@ -641,6 +650,7 @@ img {
     }
 
     .arrow-svg {
+        width: 30px;
         position: absolute;
         animation-name: arrow-animation;
         animation-duration: 1s;
@@ -706,7 +716,7 @@ img {
     }
 
     .price-item-title {
-        line-height: 25px;
+        line-height: 20px;
         color: var(--white);
         font-size: var(--font-s);
         margin-bottom: 10px;
@@ -714,7 +724,7 @@ img {
 
     .price-item-value {
         font-size: var(--font-m);
-        line-height: 25px;
+        line-height: 29px;
         color: var(--green);
     }
 
@@ -728,7 +738,7 @@ img {
         font-style: normal;
         font-weight: 700;
         font-size: var(--font-ml);
-        line-height: 30px;
+        line-height: 32px;
         color: var(--back);
         margin-bottom: 30px;
     }
@@ -737,7 +747,7 @@ img {
         font-style: normal;
         font-weight: bold;
         font-size: var(--font-m);
-        line-height: 25px;
+        line-height: 29px;
         color: var(--back);
         margin-bottom: 40px;
     }
@@ -745,7 +755,7 @@ img {
     .business-outcome-content {
         font-style: normal;
         font-size: var(--font-s);
-        line-height: 29px;
+        line-height: 20px;
         color: var(--back);
         max-width: 465px;
         margin-bottom: 50px;
@@ -771,7 +781,7 @@ img {
     .schedule-title {
         font-weight: bold;
         font-size: var(--font-xs);
-        line-height: 16px;
+        line-height: 20px;
         text-align: center;
         letter-spacing: 0.01em;
         text-transform: uppercase;
@@ -782,7 +792,7 @@ img {
     .schedule-content {
         font-style: normal;
         font-size: var(--font-xxs);
-        line-height: 15px;
+        line-height: 18px;
         text-align: center;
         letter-spacing: 0.01em;
         text-transform: uppercase;
@@ -804,7 +814,7 @@ img {
 
         font-weight: bold;
         font-size: var(--font-ml);;
-        line-height: 25px;
+        line-height: 32px;
         color: var(--white);
         margin-bottom: 60px;
         padding-top: 60px;
@@ -852,7 +862,7 @@ img {
     .client-title {
         font-weight: bold;
         font-size: var(--font-ml);
-        line-height: 30px;
+        line-height: 32px;
         color: var(--back);
         max-width: 900px;
         display: inline-block;
@@ -874,7 +884,7 @@ img {
         margin-top: 20px;
         font-weight: bold;
         font-size: var(--font-m);
-        line-height: 20px;
+        line-height: 29px;
         color: var(--back);
         margin-bottom: 10px;
     }
