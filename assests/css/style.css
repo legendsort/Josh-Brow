@@ -464,8 +464,8 @@ img {
         margin-bottom: 160px;
     }
     .client-list {
-        padding-left: 180px;
-        padding-right: 180px;
+        padding-left: 150px;
+        padding-right: 150px;
     }
 
     
@@ -475,6 +475,11 @@ img {
         height: 100%;
     }
 
+
+
+}
+
+@media only screen and (min-width: 1400px) {
     #carousel {
         display: none;
     }
@@ -482,8 +487,36 @@ img {
     #company-logos {
         display: flex;
     }
-
 }
+
+@media only screen and (max-width: 1400px) {
+    #company-logos {
+        display: none;
+    }
+
+    #carousel {
+        display: block;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%40ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    }
+    
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%40ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
+
+    .carousel-indicators {
+        bottom: -30px !important;
+    }
+    .carousel-indicators .active {
+        background-color: grey !important;
+    }
+    .carousel-indicators [data-bs-target] {
+        background-color: #000000 !important;
+    }
+}
+
 
 @media only screen and (max-width: 1080px) {
     .main-home {
@@ -927,32 +960,9 @@ img {
         max-width: 150px;
     }
 
-    #company-logos {
-        display: none;
-    }
-
-    #carousel {
-        display: block;
-    }
 
     
-    .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%40ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-    }
-    
-    .carousel-control-next-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%40ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-    }
 
-    .carousel-indicators {
-        bottom: -30px !important;
-    }
-    .carousel-indicators .active {
-        background-color: grey !important;
-    }
-    .carousel-indicators [data-bs-target] {
-        background-color: #000000 !important;
-    }
 }
 
 .schedule-link {
@@ -975,7 +985,7 @@ img {
 }
 
 .santivia img {
-    max-width: 180px;
+    max-width: 160px;
 }
 
     
